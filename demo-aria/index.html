@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	<title>What's Your Markup Saying to You?</title>	
+	<link rel="shortcut icon" href="favicon.ico">
+	
+	<!--css-->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body class="home">
+	
+	<div class="wrapper">
+	
+		<header class="primary" role="banner">
+	
+			<h1>What's Your Markup Saying to You?</h1>
+			
+			<nav role="navigation">
+				<ul>
+					<li><a class="selected" href="#">Home</a></li>
+					<li><a href="#">More Cheese</a></li>
+					<li><a href="#">More Baboons</a></li>
+				</ul>
+			</nav>
+	
+		</header><!-- end .primary -->	
+		
+		<!-- section with identifier for styling -->
+		<section class="home-main">
+		
+			<article role="article">
+			
+				<!-- kick off a section with an h1, its relative value against an h1 in the header is implied by it being in a section-->
+				<h1>Wisconsin Cheese History</h1>
+				
+					<figure>  
+					
+	    				<img src="img/cheese.jpg" alt="This is cheese" />  
+	    				<figcaption>  
+	        				<p>"Cheeses" courtesy of <a href="http://www.flickr.com/photos/gee01/4090407169/">Graeme Maclean</a> on Flickr</p>  
+	    				</figcaption>  
+	    				
+					</figure> 
+				
+				<p>The story of Wisconsin's dairy industry has roots in prehistoric times. Nature set the stage for America's Dairyland during the last Ice Age, when glaciers cut through what is now Wisconsin. As they receded, the <em>massive</em> mountains of ice left behind a countryside of rolling hills and lush pastureland.</p>
+				
+				<p>Millions of years later, when European immigrants migrated west, they found the nation's heartland, which reminded many of their homelands. Climatic conditions suited farming well, and initially, farmers grew wheat, hops, and other grains. Dairy farming followed naturally, and dairy farmers soon produced an abundance of top-quality milk. To preserve excess milk, farmers made cheese. The move from producing cheese for family use to making cheese to sell was a short step. However, commercial production of cheese in Wisconsin began on a small scale.</p>
+				
+				<!-- no need to identify this footer further, its accessible via the section-->
+				<footer>
+				
+					<p>Taken from <a href="http://www.eatwisconsincheese.com/wisconsin/history_of_wisconsin_cheese.aspx">www.eatwisconsincheese.com</a>
+				
+				</footer>
+			
+			</article>
+		
+			<article role="article">
+			
+				<!-- kick off a section with an h1, its relative value against an h1 in the header is implied by it being in a section-->
+				<h1>Social Systems Within a Baboon Troop</h1>
+				
+					<figure>  
+					
+	    				<img src="img/Baboon_buttocks.jpg" alt="Baboon Buttocks" />  
+	    				<figcaption>  
+	        				<p>"Baboon buttocks" courtesy of <a href="http://www.flickr.com/photos/prakhar/975160147">Prakhar Amba</a> on Flickr</p>  
+	    				</figcaption>  
+	    				
+					</figure> 
+				
+				<p>Most baboons live in hierarchical troops. Group sizes vary between 5 to 250 animals (often about 50 or so), depending on specific circumstances, especially species and time of year. The structure within the troop varies considerably between hamadryas baboons and the remaining species, sometimes collectively referred to as savanna baboons.</p>
+				
+				<p>The hamadryas baboon often appear in very large groups composed of many smaller harems (one male with four or so females), to which females from elsewhere in the troop are recruited while they're still too young to breed. Other baboon species have a more promiscuous structure with a strict dominance hierarchy based on the matriline. The hamadryas baboon group will typically include a younger male, but he will not attempt to mate with the females unless the older male is removed.</p>
+				
+				<!-- no need to identify this footer further, its accessible via the section-->
+				<footer>
+				
+					<p>Taken from <a href="http://en.wikipedia.org/wiki/Baboon">wikipedia.com</a>
+				
+				</footer>
+			
+			</article>
+		
+		</section><!-- end .home-main -->	
+		
+		<!-- use a class or an id (whatever your preference) on the main footer and header - this will aid targeting them for styling -->
+		<footer class="primary">
+		
+			<p>Copyright &copy; <a href="http://www.snaptin.com">Ian Yates</a> 2011</p>
+	
+		</footer><!-- end .primary -->
+	
+	</div><!-- end .wrapper-->
+	
+</body>
+
+</html>
