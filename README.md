@@ -1,4 +1,4 @@
-### Envato Tuts+ Tutorial: Accessibility: What’s Your Markup Saying to You?
+### Envato Tuts+ Tutorial: [Accessibility: What’s Your Markup Saying to You?](https://webdesign.tutsplus.com/articles/accessibility-whats-your-markup-saying-to-you--webdesign-4561)
 #### Instructor: [Ian Yates](https://tutsplus.com/authors/ian-yates)
 
 Today we’re going to look at accessibility and semantics. Let’s start with a question: have you ever used a screen reader? If the answer’s no, you should try it - it might well change the way you approach your HTML markup for ever!
